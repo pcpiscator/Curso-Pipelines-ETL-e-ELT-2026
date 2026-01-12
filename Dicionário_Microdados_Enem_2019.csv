@@ -1,0 +1,441 @@
+DICIONARIO DE VARIAVEIS - ENEM 2019;;;;;
+;;;;;
+NOME DA VARIAVEL;Descriçao;Variaveis Categoricas;;Tamanho ;Tipo
+;;Categoria;Descriçao;;
+DADOS DO PARTICIPANTE;;;;;
+NU_INSCRICAO;Nomero de inscriçao1 ;;;12;Numerica
+NU_ANO;Ano do Enem;;;4;Numerica
+CO_MUNICIPIO_RESIDENCIA;Codigo do municipio de residencia ;;;7;Numerica
+;1º digito: Regiao;;;;
+;1º e 2º digitos: UF;;;;
+;3º, 4º, 5º e 6º digitos: Municipio;;;;
+;7º digito: digito verificador;;;;
+NO_MUNICIPIO_RESIDENCIA;Nome do municipio de residencia;;;150;Alfanumerica
+CO_UF_RESIDENCIA;Codigo da Unidade da Federaçao de residencia;;;2;Numerica
+SG_UF_RESIDENCIA;Sigla da Unidade da Federaçao de residencia;;;2;Alfanumerica
+NU_IDADE;Idade2;;;3;Numerica
+TP_SEXO;Sexo;M;Masculino;1;Alfanumerica
+;;F;Feminino ;;
+TP_ESTADO_CIVIL;Estado Civil;0;Nao informado;1;Numerica
+;;1;Solteiro(a);;
+;;2;Casado(a)/Mora com companheiro(a);;
+;;3;Divorciado(a)/Desquitado(a)/Separado(a);;
+;;4;Viovo(a);;
+TP_COR_RACA;Cor/raça;0;Nao declarado;1;Numerica
+;;1;Branca;;
+;;2;Preta;;
+;;3;Parda;;
+;;4;Amarela;;
+;;5;Indigena ;;
+TP_NACIONALIDADE;Nacionalidade;0;Nao informado;1;Numerica
+;;1;Brasileiro(a);;
+;;2;Brasileiro(a) Naturalizado(a);;
+;;3;Estrangeiro(a);;
+;;4;Brasileiro(a) Nato(a), nascido(a) no exterior;;
+CO_MUNICIPIO_NASCIMENTO;Codigo do municipio de nascimento;;;7;Numerica
+;1º digito: Regiao;;;;
+;1º e 2º digitos: UF;;;;
+;3º, 4º, 5º e 6º digitos: Municipio;;;;
+;7º digito: digito verificador;;;;
+NO_MUNICIPIO_NASCIMENTO;Nome do municipio de nascimento;;;150;Alfanumerica
+CO_UF_NASCIMENTO;Codigo da Unidade da Federaçao de nascimento;;;2;Numerica
+SG_UF_NASCIMENTO;Sigla da Unidade da Federaçao de nascimento;;;2;Alfanumerica
+TP_ST_CONCLUSAO;Situaçao de conclusao do Ensino Medio;1;Ja conclui o Ensino Medio;1;Numerica
+;;2;Estou cursando e concluirei o Ensino Medio em 2019;;
+;;3;Estou cursando e concluirei o Ensino Medio apos 2019;;
+;;4;Nao conclui e nao estou cursando o Ensino Medio;;
+TP_ANO_CONCLUIU;Ano de Conclusao do Ensino Medio;0;Nao informado;1;Numerica
+;;1;2018;;
+;;2;2017;;
+;;3;2016;;
+;;4;2015;;
+;;5;2014;;
+;;6;2013;;
+;;7;2012;;
+;;8;2011;;
+;;9;2010;;
+;;10;2009;;
+;;11;2008;;
+;;12;2007;;
+;;13;Antes de 2007;;
+TP_ESCOLA;Tipo de escola do Ensino Medio;1;Nao Respondeu;1;Numerica
+;;2;Poblica;;
+;;3;Privada;;
+;;4;Exterior;;
+TP_ENSINO;Tipo de instituiçao que concluiu ou concluira o Ensino Medio ;1;Ensino Regular;1;Numerica
+;;2;Educaçao Especial - Modalidade Substitutiva;;
+;;3;Educaçao de Jovens e Adultos;;
+IN_TREINEIRO;Indica se o inscrito fez a prova com intuito de apenas treinar seus conhecimentos3;1;Sim;1;Numerica
+;;0;Nao;;
+DADOS DA ESCOLA;;;;;
+CO_ESCOLA;Codigo da Escola4;;;8;Numerica
+CO_MUNICIPIO_ESC;Codigo do municipio da escola ;;;7;Numerica
+;1º digito: Regiao;;;;
+;1º e 2º digitos: UF;;;;
+;3º, 4º, 5º e 6º digitos: Municipio;;;;
+;7º digito: digito verificador;;;;
+NO_MUNICIPIO_ESC;Nome do municipio da escola;;;150;Alfanumerica
+CO_UF_ESC;Codigo da Unidade da Federaçao da escola;;;2;Numerica
+SG_UF_ESC;Sigla da Unidade da Federaçao da escola;;;2;Alfanumerica
+TP_DEPENDENCIA_ADM_ESC;Dependencia administrativa (Escola);1;Federal;1;Numerica
+;;2;Estadual;;
+;;3;Municipal;;
+;;4;Privada;;
+TP_LOCALIZACAO_ESC;Localizaçao (Escola);1;Urbana;1;Numerica
+;;2;Rural;;
+TP_SIT_FUNC_ESC;Situaçao de funcionamento (Escola);1;Em atividade;1;Numerica
+;;2;Paralisada;;
+;;3;Extinta;;
+DADOS DOS PEDIDOS DE ATENDIMENTO ESPECIALIZADO;;;;;
+IN_BAIXA_VISAO;Indicador de baixa visao5;1;Sim;1;Numerica
+;;0;Nao;;
+IN_CEGUEIRA;Indicador de cegueira5;1;Sim;1;Numerica
+;;0;Nao;;
+IN_SURDEZ;Indicador de surdez5;1;Sim;1;Numerica
+;;0;Nao;;
+IN_DEFICIENCIA_AUDITIVA;Indicador de deficiencia auditiva5;1;Sim;1;Numerica
+;;0;Nao;;
+IN_SURDO_CEGUEIRA;Indicador de surdo-cegueira5;1;Sim;1;Numerica
+;;0;Nao;;
+IN_DEFICIENCIA_FISICA;Indicador de deficiencia fisica5;1;Sim;1;Numerica
+;;0;Nao;;
+IN_DEFICIENCIA_MENTAL;Indicador de deficiencia mental5;1;Sim;1;Numerica
+;;0;Nao;;
+IN_DEFICIT_ATENCAO;Indicador de deficit de atençao5;1;Sim;1;Numerica
+;;0;Nao;;
+IN_DISLEXIA;Indicador de dislexia5;1;Sim;1;Numerica
+;;0;Nao;;
+IN_DISCALCULIA;Indicador de discalculia5;1;Sim;1;Numerica
+;;0;Nao;;
+IN_AUTISMO;Indicador de autismo5;1;Sim;1;Numerica
+;;0;Nao;;
+IN_VISAO_MONOCULAR;Indicador de visao monocular5;1;Sim;1;Numerica
+;;0;Nao;;
+IN_OUTRA_DEF;Indicador de outra deficiencia ou condiçao especial5;1;Sim;1;Numerica
+;;0;Nao;;
+DADOS DOS PEDIDOS DE ATENDIMENTO ESPECIFICO;;;;;
+IN_GESTANTE;Indicador de gestante5;1;Sim;1;Numerica
+;;0;Nao;;
+IN_LACTANTE;Indicador de lactante5;1;Sim;1;Numerica
+;;0;Nao;;
+IN_IDOSO;Indicador de inscrito idoso5;1;Sim;1;Numerica
+;;0;Nao;;
+IN_ESTUDA_CLASSE_HOSPITALAR;Indicador de inscriçao em Unidade Hospitalar5;1;Sim;1;Numerica
+;;0;Nao;;
+DADOS DOS PEDIDOS DE RECURSOS ESPECIALIZADOS E ESPECIFICOS PARA REALIZAÇAO DAS PROVAS;;;;;
+IN_SEM_RECURSO;Indicador de inscrito que nao requisitou nenhum recurso;1;Sim;1;Numerica
+;;0;Nao;;
+IN_BRAILLE;Indicador de solicitaçao de prova em braille5;1;Sim;1;Numerica
+;;0;Nao;;
+IN_AMPLIADA_24;Indicador de solicitaçao de prova superampliada com fonte tamanho 245;1;Sim;1;Numerica
+;;0;Nao;;
+IN_AMPLIADA_18;Indicador de solicitaçao de prova ampliada com fonte tamanho 185;1;Sim;1;Numerica
+;;0;Nao;;
+IN_LEDOR;Indicador de solicitaçao de auxilio para leitura (ledor)5;1;Sim;1;Numerica
+;;0;Nao;;
+IN_ACESSO;Indicador de solicitaçao de sala de facil acesso5;1;Sim;1;Numerica
+;;0;Nao;;
+IN_TRANSCRICAO;Indicador de solicitaçao de auxilio para transcriçao5;1;Sim;1;Numerica
+;;0;Nao;;
+IN_LIBRAS;Indicador de solicitaçao de Tradutor- Interprete Libras5;1;Sim;1;Numerica
+;;0;Nao;;
+IN_TEMPO_ADICIONAL;Indicador de solicitaçao de tempo adicional5;1;Sim;1;Numerica
+;;0;Nao;;
+IN_LEITURA_LABIAL;Indicador de solicitaçao de leitura labial5;1;Sim;1;Numerica
+;;0;Nao;;
+IN_MESA_CADEIRA_RODAS;Indicador de solicitaçao de mesa para cadeira de rodas5;1;Sim;1;Numerica
+;;0;Nao;;
+IN_MESA_CADEIRA_SEPARADA;Indicador de solicitaçao de mesa e cadeira separada5;1;Sim;1;Numerica
+;;0;Nao;;
+IN_APOIO_PERNA;Indicador de solicitaçao de apoio de perna e pe5;1;Sim;1;Numerica
+;;0;Nao;;
+IN_GUIA_INTERPRETE;Indicador de solicitaçao de guia interprete5;1;Sim;1;Numerica
+;;0;Nao;;
+IN_COMPUTADOR;Indicador de solicitaçao de computador5;1;Sim;1;Numerica
+;;0;Nao;;
+IN_CADEIRA_ESPECIAL;Indicador de solicitaçao de cadeira especial5;1;Sim;1;Numerica
+;;0;Nao;;
+IN_CADEIRA_CANHOTO;Indicador de solicitaçao de cadeira para canhoto5;1;Sim;1;Numerica
+;;0;Nao;;
+IN_CADEIRA_ACOLCHOADA;Indicador de solicitaçao de cadeira acolchoada5;1;Sim;1;Numerica
+;;0;Nao;;
+IN_PROVA_DEITADO;Indicador de solicitaçao para fazer prova deitado em maca ou mobiliario similar5;1;Sim;1;Numerica
+;;0;Nao;;
+IN_MOBILIARIO_OBESO;Indicador de solicitaçao de mobiliario adequado para obeso5;1;Sim;1;Numerica
+;;0;Nao;;
+IN_LAMINA_OVERLAY;Indicador de solicitaçao de lamina overlay5;1;Sim;1;Numerica
+;;0;Nao;;
+IN_PROTETOR_AURICULAR;Indicador de solicitaçao de protetor auricular5;1;Sim;1;Numerica
+;;0;Nao;;
+IN_MEDIDOR_GLICOSE;Indicador de solicitaçao de medidor de glicose e/ou aplicaçao de insulina5;1;Sim;1;Numerica
+;;0;Nao;;
+IN_MAQUINA_BRAILE;Indicador de solicitaçao de maquina Braile e/ou Reglete e Punçao5;1;Sim;1;Numerica
+;;0;Nao;;
+IN_SOROBAN;Indicador de solicitaçao de soroban5;1;Sim;1;Numerica
+;;0;Nao;;
+IN_MARCA_PASSO;Indicador de solicitaçao de marca-passo (impeditivo de uso de detector de metais)5;1;Sim;1;Numerica
+;;0;Nao;;
+IN_SONDA;Indicador de solicitaçao de sonda com troca periodica5;1;Sim;1;Numerica
+;;0;Nao;;
+IN_MEDICAMENTOS;Indicador de solicitaçao de medicamentos5;1;Sim;1;Numerica
+;;0;Nao;;
+IN_SALA_INDIVIDUAL;Indicador de solicitaçao de sala especial individual5;1;Sim;1;Numerica
+;;0;Nao;;
+IN_SALA_ESPECIAL;Indicador de solicitaçao de sala especial ate 20 participantes5;1;Sim;1;Numerica
+;;0;Nao;;
+IN_SALA_ACOMPANHANTE;Indicador de solicitaçao de sala reservada para acompanhantes5;1;Sim;1;Numerica
+;;0;Nao;;
+IN_MOBILIARIO_ESPECIFICO;Indicador de solicitaçao de mobiliario especifico5;1;Sim;1;Numerica
+;;0;Nao;;
+IN_MATERIAL_ESPECIFICO;Indicador de solicitaçao de material especifico5;1;Sim;1;Numerica
+;;0;Nao;;
+IN_NOME_SOCIAL;Indicador de inscrito que se declarou travesti, transexual ou transgenero e solicitou atendimento pelo Nome Social, conforme e reconhecido socialmente em consonancia com sua identidade de genero6;1;Sim;1;Numerica
+;;0;Nao;;
+DADOS DO LOCAL DE APLICAÇAO DA PROVA;;;;;
+CO_MUNICIPIO_PROVA;Codigo do municipio da aplicaçao da prova;;;7;Numerica
+;1º digito: Regiao;;;;
+;1º e 2º digitos: UF;;;;
+;3º, 4º, 5º e 6º digitos: Municipio;;;;
+;7º digito: digito verificador;;;;
+NO_MUNICIPIO_PROVA;Nome do municipio da aplicaçao da prova;;;150;Alfanumerica
+CO_UF_PROVA;Codigo da Unidade da Federaçao da aplicaçao da prova;;;2;Alfanumerica
+SG_UF_PROVA;Sigla da Unidade da Federaçao da aplicaçao da prova;;;2;Alfanumerica
+DADOS DA PROVA OBJETIVA;;;;;
+TP_PRESENCA_CN;Presença na prova objetiva de Ciencias da Natureza;0;Faltou à prova;1;Numerica
+;;1;Presente na prova;;
+;;2;Eliminado na prova;;
+TP_PRESENCA_CH;Presença na prova objetiva de Ciencias Humanas;0;Faltou à prova;1;Numerica
+;;1;Presente na prova;;
+;;2;Eliminado na prova;;
+TP_PRESENCA_LC;Presença na prova objetiva de Linguagens e Codigos;0;Faltou à prova;1;Numerica
+;;1;Presente na prova;;
+;;2;Eliminado na prova;;
+TP_PRESENCA_MT;Presença na prova objetiva de Matematica;0;Faltou à prova;1;Numerica
+;;1;Presente na prova;;
+;;2;Eliminado na prova;;
+CO_PROVA_CN;Codigo do tipo de prova de Ciencias da Natureza;503;Azul;3;Numerica
+;;504;Amarela;;
+;;505;Cinza;;
+;;506;Rosa;;
+;;519;Laranja - Adaptada Ledor;;
+;;523;Verde - Videoprova - Libras;;
+;;543;Amarela (Reaplicaçao);;
+;;544;Cinza (Reaplicaçao);;
+;;545;Azul (Reaplicaçao);;
+;;546;Rosa (Reaplicaçao);;
+CO_PROVA_CH;Codigo do tipo de prova de Ciencias Humanas;507;Azul;3;Numerica
+;;508;Amarela;;
+;;509;Branca;;
+;;510;Rosa;;
+;;520;Laranja - Adaptada Ledor;;
+;;524;Verde - Videoprova - Libras;;
+;;547;Azul (Reaplicaçao);;
+;;548;Amarelo (Reaplicaçao);;
+;;549;Branco (Reaplicaçao);;
+;;550;Rosa (Reaplicaçao);;
+;;564;Laranja - Adaptada Ledor (Reaplicaçao);;
+CO_PROVA_LC;Codigo do tipo de prova de Linguagens e Codigos;511;Azul;3;Numerica
+;;512;Amarela;;
+;;513;Rosa;;
+;;514;Branca;;
+;;521;Laranja - Adaptada Ledor;;
+;;525;Verde - Videoprova - Libras;;
+;;551;Azul (Reaplicaçao);;
+;;552;Amarelo (Reaplicaçao);;
+;;553;Branca (Reaplicaçao);;
+;;554;Rosa (Reaplicaçao);;
+;;565;Laranja - Adaptada Ledor (Reaplicaçao);;
+CO_PROVA_MT;Codigo do tipo de prova de Matematica;515;Azul;3;Numerica
+;;516;Amarela;;
+;;517;Rosa;;
+;;518;Cinza;;
+;;522;Laranja - Adaptada Ledor;;
+;;526;Verde - Videoprova - Libras;;
+;;555;Amarela (Reaplicaçao);;
+;;556;Cinza (Reaplicaçao);;
+;;557;Azul (Reaplicaçao);;
+;;558;Rosa (Reaplicaçao);;
+NU_NOTA_CN;Nota da prova de Ciencias da Natureza;;;9;Numerica
+NU_NOTA_CH;Nota da prova de Ciencias Humanas;;;9;Numerica
+NU_NOTA_LC;Nota da prova de Linguagens e Codigos;;;9;Numerica
+NU_NOTA_MT;Nota da prova de Matematica;;;9;Numerica
+TX_RESPOSTAS_CN;Vetor com as respostas da parte objetiva da prova de Ciencias da Natureza8 ;;A,B,C,D, E, * (dupla marcaçao), . (em branco);45;Alfanumerica
+TX_RESPOSTAS_CH;Vetor com as respostas da parte objetiva da prova de Ciencias Humanas8;;A,B,C,D, E, * (dupla marcaçao), . (em branco);45;Alfanumerica
+TX_RESPOSTAS_LC;Vetor com as respostas da parte objetiva da prova de Linguagens e Codigos9 ;;A,B,C,D, E, * (dupla marcaçao), . (em branco), 9 (Item nao apresentado);45;Alfanumerica
+TX_RESPOSTAS_MT;Vetor com as respostas da parte objetiva da prova de Matematica8 ;;A,B,C,D, E, * (dupla marcaçao), . (em branco);45;Alfanumerica
+TP_LINGUA;Lingua Estrangeira ;0;Ingles;1;Numerica
+;;1;Espanhol;;
+TX_GABARITO_CN;Vetor com o gabarito da parte objetiva da prova de Ciencias da Natureza10 ;;;45;Alfanumerica
+TX_GABARITO_CH;Vetor com o gabarito da parte objetiva da prova de Ciencias Humanas10;;;45;Alfanumerica
+TX_GABARITO_LC;Vetor com o gabarito da parte objetiva da prova de Linguagens e Codigos11 ;;;50;Alfanumerica
+TX_GABARITO_MT;Vetor com o gabarito da parte objetiva da prova de Matematica10;;;45;Alfanumerica
+DADOS DA REDAÇAO;;;;;
+TP_STATUS_REDACAO;Situaçao da redaçao do participante;1;Sem problemas;1;Numerica
+;;2;Anulada;;
+;;3;Copia Texto Motivador;;
+;;4;Em Branco;;
+;;6;Fuga ao tema;;
+;;7;Nao atendimento ao tipo textual;;
+;;8;Texto insuficiente;;
+;;9;Parte desconectada;;
+NU_NOTA_COMP1;Nota da competencia 1 - Demonstrar dominio da modalidade escrita formal da Lingua Portuguesa.;;;9;Numerica
+NU_NOTA_COMP2;Nota da competencia 2 - Compreender a proposta de redaçao e aplicar conceitos das varias areas de conhecimento para desenvolver o tema, dentro dos limites estruturais do texto dissertativo-argumentativo em prosa.;;;9;Numerica
+NU_NOTA_COMP3;Nota da competencia 3 - Selecionar, relacionar, organizar e interpretar informações, fatos, opiniões e argumentos em defesa de um ponto de vista.;;;9;Numerica
+NU_NOTA_COMP4;Nota da competencia 4 - Demonstrar conhecimento dos mecanismos linguisticos necessarios para a construçao da argumentaçao.;;;9;Numerica
+NU_NOTA_COMP5;Nota da competencia 5 - Elaborar proposta de intervençao para o problema abordado, respeitando os direitos humanos.;;;9;Numerica
+NU_NOTA_REDACAO;Nota da prova de redaçao;;;9;Numerica
+DADOS DO QUESTIONARIO SOCIOECONOMICO;;;;;
+Q001;Ate que serie seu pai, ou o homem responsavel por voce, estudou?;A;Nunca estudou.;1;Alfanumerica
+;;B;Nao completou a 4ª serie/5º ano do Ensino Fundamental.;;
+;;C;Completou a 4ª serie/5º ano, mas nao completou a 8ª serie/9º ano do Ensino Fundamental.;;
+;;D;Completou a 8ª serie/9º ano do Ensino Fundamental, mas nao completou o Ensino Medio.;;
+;;E;Completou o Ensino Medio, mas nao completou a Faculdade.;;
+;;F;Completou a Faculdade, mas nao completou a Pos-graduaçao.;;
+;;G;Completou a Pos-graduaçao.;;
+;;H;Nao sei.;;
+Q002;Ate que serie sua mae, ou a mulher responsavel por voce, estudou?;A;Nunca estudou.;1;Alfanumerica
+;;B;Nao completou a 4ª serie/5º ano do Ensino Fundamental.;;
+;;C;Completou a 4ª serie/5º ano, mas nao completou a 8ª serie/9º ano do Ensino Fundamental.;;
+;;D;Completou a 8ª serie/9º ano do Ensino Fundamental, mas nao completou o Ensino Medio.;;
+;;E;Completou o Ensino Medio, mas nao completou a Faculdade.;;
+;;F;Completou a Faculdade, mas nao completou a Pos-graduaçao.;;
+;;G;Completou a Pos-graduaçao.;;
+;;H;Nao sei.;;
+Q003;A partir da apresentaçao de algumas ocupações divididas em grupos ordenados, indique o grupo que contempla a ocupaçao mais proxima da ocupaçao do seu pai ou do homem responsavel por voce. (Se ele nao estiver trabalhando, escolha uma ocupaçao pensando no oltimo trabalho dele).;A;Grupo 1: Lavrador, agricultor sem empregados, boia fria, criador de animais (gado, porcos, galinhas, ovelhas, cavalos etc.), apicultor, pescador, lenhador, seringueiro, extrativista.;1;Alfanumerica
+;;B;Grupo 2: Diarista, empregado domestico, cuidador de idosos, baba, cozinheiro (em casas particulares), motorista particular, jardineiro, faxineiro de empresas e predios, vigilante, porteiro, carteiro, office-boy, vendedor, caixa, atendente de loja, auxiliar administrativo, recepcionista, servente de pedreiro, repositor de mercadoria.;;
+;;C;Grupo 3: Padeiro, cozinheiro industrial ou em restaurantes, sapateiro, costureiro, joalheiro, torneiro mecanico, operador de maquinas, soldador, operario de fabrica, trabalhador da mineraçao, pedreiro, pintor, eletricista, encanador, motorista, caminhoneiro, taxista.;;
+;;D;Grupo 4: Professor (de ensino fundamental ou medio, idioma, mosica, artes etc.), tecnico (de enfermagem, contabilidade, eletronica etc.), policial, militar de baixa patente (soldado, cabo, sargento), corretor de imoveis, supervisor, gerente, mestre de obras, pastor, microempresario (proprietario de empresa com menos de 10 empregados), pequeno comerciante, pequeno proprietario de terras, trabalhador autonomo ou por conta propria.;;
+;;E;Grupo 5: Medico, engenheiro, dentista, psicologo, economista, advogado, juiz, promotor, defensor, delegado, tenente, capitao, coronel, professor universitario, diretor em empresas poblicas ou privadas, politico, proprietario de empresas com mais de 10 empregados.;;
+;;F;Nao sei.;;
+Q004;A partir da apresentaçao de algumas ocupações divididas em grupos ordenados, indique o grupo que contempla a ocupaçao mais proxima da ocupaçao da sua mae ou da mulher responsavel por voce. (Se ela nao estiver trabalhando, escolha uma ocupaçao pensando no oltimo trabalho dela).;A;Grupo 1: Lavradora, agricultora sem empregados, boia fria, criadora de animais (gado, porcos, galinhas, ovelhas, cavalos etc.), apicultora, pescadora, lenhadora, seringueira, extrativista.;2;Numerica
+;;B;Grupo 2: Diarista, empregada domestica, cuidadora de idosos, baba, cozinheira (em casas particulares), motorista particular, jardineira, faxineira de empresas e predios, vigilante, porteira, carteira, office-boy, vendedora, caixa, atendente de loja, auxiliar administrativa, recepcionista, servente de pedreiro, repositora de mercadoria.;;
+;;C;Grupo 3: Padeira, cozinheira industrial ou em restaurantes, sapateira, costureira, joalheira, torneira mecanica, operadora de maquinas, soldadora, operaria de fabrica, trabalhadora da mineraçao, pedreira, pintora, eletricista, encanadora, motorista, caminhoneira, taxista.;;
+;;D;Grupo 4: Professora (de ensino fundamental ou medio, idioma, mosica, artes etc.), tecnica (de enfermagem, contabilidade, eletronica etc.), policial, militar de baixa patente (soldado, cabo, sargento), corretora de imoveis, supervisora, gerente, mestre de obras, pastora, microempresaria (proprietaria de empresa com menos de 10 empregados), pequena comerciante, pequena proprietaria de terras, trabalhadora autonoma ou por conta propria.;;
+;;E;Grupo 5: Medica, engenheira, dentista, psicologa, economista, advogada, juiza, promotora, defensora, delegada, tenente, capita, coronel, professora universitaria, diretora em empresas poblicas ou privadas, politica, proprietaria de empresas com mais de 10 empregados.;;
+;;F;Nao sei.;;
+Q005;Incluindo voce, quantas pessoas moram atualmente em sua residencia?;1;1, pois moro sozinho(a).;2;Numerica
+;;2;2;;
+;;3;3;;
+;;4;4;;
+;;5;5;;
+;;6;6;;
+;;7;7;;
+;;8;8;;
+;;9;9;;
+;;10;10;;
+;;11;11;;
+;;12;12;;
+;;13;13;;
+;;14;14;;
+;;15;15;;
+;;16;16;;
+;;17;17;;
+;;18;18;;
+;;19;19;;
+;;20;20;;
+Q006;Qual e a renda mensal de sua familia? (Some a sua renda com a dos seus familiares.);A;Nenhuma renda.;1;Alfanumerica
+;;B;Ate R$ 998,00.;;
+;;C;De R$ 998,01 ate R$ 1.497,00.;;
+;;D;De R$ 1.497,01 ate R$ 1.996,00.;;
+;;E;De R$ 1.996,01 ate R$ 2.495,00.;;
+;;F;De R$ 2.495,01 ate R$ 2.994,00.;;
+;;G;De R$ 2.994,01 ate R$ 3.992,00.;;
+;;H;De R$ 3.992,01 ate R$ 4.990,00.;;
+;;I;De R$ 4.990,01 ate R$ 5.988,00.;;
+;;J;De R$ 5.988,01 ate R$ 6.986,00.;;
+;;K;De R$ 6.986,01 ate R$ 7.984,00.;;
+;;L;De R$ 7.984,01 ate R$ 8.982,00.;;
+;;M;De R$ 8.982,01 ate R$ 9.980,00.;;
+;;N;De R$ 9.980,01 ate R$ 11.976,00.;;
+;;O;De R$ 11.976,01 ate R$ 14.970,00.;;
+;;P;De R$ 14.970,01 ate R$ 19.960,00.;;
+;;Q;Mais de R$ 19.960,00.;;
+Q007;Em sua residencia trabalha empregado(a) domestico(a)?;A;Nao.;1;Alfanumerica
+;;B;Sim, um ou dois dias por semana.;;
+;;C;Sim, tres ou quatro dias por semana.;;
+;;D;Sim, pelo menos cinco dias por semana.;;
+Q008;Na sua residencia tem banheiro?;A;Nao.;1;Alfanumerica
+;;B;Sim, um.;;
+;;C;Sim, dois.;;
+;;D;Sim, tres.;;
+;;E;Sim, quatro ou mais.;;
+Q009;Na sua residencia tem quartos para dormir?;A;Nao.;1;Alfanumerica
+;;B;Sim, um.;;
+;;C;Sim, dois.;;
+;;D;Sim, tres.;;
+;;E;Sim, quatro ou mais.;;
+Q010;Na sua residencia tem carro?;A;Nao.;1;Alfanumerica
+;;B;Sim, um.;;
+;;C;Sim, dois.;;
+;;D;Sim, tres.;;
+;;E;Sim, quatro ou mais.;;
+Q011;Na sua residencia tem motocicleta?;A;Nao.;1;Alfanumerica
+;;B;Sim, uma.;;
+;;C;Sim, duas.;;
+;;D;Sim, tres.;;
+;;E;Sim, quatro ou mais.;;
+Q012;Na sua residencia tem geladeira?;A;Nao.;1;Alfanumerica
+;;B;Sim, uma.;;
+;;C;Sim, duas.;;
+;;D;Sim, tres.;;
+;;E;Sim, quatro ou mais.;;
+Q013;Na sua residencia tem freezer (independente ou segunda porta da geladeira)?;A;Nao.;1;Alfanumerica
+;;B;Sim, um.;;
+;;C;Sim, dois.;;
+;;D;Sim, tres.;;
+;;E;Sim, quatro ou mais.;;
+Q014;Na sua residencia tem maquina de lavar roupa? (o tanquinho NAO deve ser considerado);A;Nao.;1;Alfanumerica
+;;B;Sim, uma.;;
+;;C;Sim, duas.;;
+;;D;Sim, tres.;;
+;;E;Sim, quatro ou mais.;;
+Q015;Na sua residencia tem maquina de secar roupa (independente ou em conjunto com a maquina de lavar roupa)?;A;Nao.;1;Alfanumerica
+;;B;Sim, uma.;;
+;;C;Sim, duas.;;
+;;D;Sim, tres.;;
+;;E;Sim, quatro ou mais.;;
+Q016;Na sua residencia tem forno micro-ondas?;A;Nao.;1;Alfanumerica
+;;B;Sim, um.;;
+;;C;Sim, dois.;;
+;;D;Sim, tres.;;
+;;E;Sim, quatro ou mais.;;
+Q017;Na sua residencia tem maquina de lavar louça?;A;Nao.;1;Alfanumerica
+;;B;Sim, uma.;;
+;;C;Sim, duas.;;
+;;D;Sim, tres.;;
+;;E;Sim, quatro ou mais.;;
+Q018;Na sua residencia tem aspirador de po?;A;Nao.;1;Alfanumerica
+;;B;Sim.;;
+Q019;Na sua residencia tem televisao em cores?;A;Nao.;1;Alfanumerica
+;;B;Sim, uma.;;
+;;C;Sim, duas.;;
+;;D;Sim, tres.;;
+;;E;Sim, quatro ou mais.;;
+Q020;Na sua residencia tem aparelho de DVD?;A;Nao.;1;Alfanumerica
+;;B;Sim.;;
+Q021;Na sua residencia tem TV por assinatura?;A;Nao.;1;Alfanumerica
+;;B;Sim.;;
+Q022;Na sua residencia tem telefone celular?;A;Nao.;1;Alfanumerica
+;;B;Sim, um.;;
+;;C;Sim, dois.;;
+;;D;Sim, tres.;;
+;;E;Sim, quatro ou mais.;;
+Q023;Na sua residencia tem telefone fixo?;A;Nao.;1;Alfanumerica
+;;B;Sim.;;
+Q024;Na sua residencia tem computador?;A;Nao.;1;Alfanumerica
+;;B;Sim, um.;;
+;;C;Sim, dois.;;
+;;D;Sim, tres.;;
+;;E;Sim, quatro ou mais.;;
+Q025;Na sua residencia tem acesso à Internet?;A;Nao.;1;Alfanumerica
+;;B;Sim.;;
+1. Referente ao Enem 2019, trata-se de uma mascara e nao o seu nomero de inscriçao original no Enem. O mesmo NU_INSCRICAO para anos diferentes nao identifica o mesmo participante no exame, nao permite o acesso aos dados cadastrais como nome, endereço, RG etc, nem identifica o mesmo participante em microdados de pesquisas diferentes.;;;;;
+2. Idade do inscrito em 31/12/2019. Idades inferiores a 10 anos e superiores a 100 anos estao com o campo vazio na base.;;;;;
+3. Foi considerado treineiro o inscrito que nao havia concluido o ensino medio e nao o concluiria em 2019;;;;;
+4. Nomero gerado como identificador da escola no Censo Escolar da Educaçao Basica.;;;;;
+5. Segundo o Edital do Enem 2019, no ato da inscriçao o participante deveria informar a condiçao especial ou especifica que motiva o atendimento.;;;;;
+6. Segundo o Edital do Enem 2019, no ato da inscriçao o participante poderia declarar-se travesti ou transexual e solicitar o atendimento pelo Nome Social.;;;;;
+8. As 45 primeiras posições deste campo sao referentes as respectivas respostas. O asterisco (*) indica dupla marcaçao e o ponto (.) resposta em branco.;;;;;
+9. As 45 primeiras posições deste campo sao referentes as respectivas respostas, das quais as 5 primeiras correspondem a parte de lingua estrangeira. O asterisco (*) indica dupla marcaçao e o ponto (.) resposta em branco.;;;;;
+10. As 45 primeiras posições deste campo sao referentes ao respectivo gabarito;;;;;
+11. As 50 primeiras posições deste campo sao referentes ao respectivo gabarito, das quais, para as 10 primeiras, as 5 primeiras correspondem à prova de Lingua Inglesa e as outras 5 à prova de Lingua Espanhola.;;;;;
